@@ -19,8 +19,8 @@ import os
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
-os.environ["MISTRAL_API_KEY"] = "Vb3UFTvPq3sBIR2kJDwgDn59iFoYcZ7Q"
-os.environ["SERPER_API_KEY"] = "9b218beb8557de0554ba4710556e6978139bdc12"
+os.environ["MISTRAL_API_KEY"] = "Enter Your Key"
+os.environ["SERPER_API_KEY"] = "Enter Your Key"
 
 llm = LLM(
     model="mistral-small-latest",
@@ -673,4 +673,5 @@ if tab=="🧪 Drug Synergy":
 
 
         
+
     
