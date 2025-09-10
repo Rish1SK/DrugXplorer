@@ -298,7 +298,7 @@ if tab =="🔬 ADME Analysis":
         def get_smiles(drug_name):
             try:
                 compound = pcp.get_compounds(drug_name, 'name')[0]
-                return compound.isomeric_smiles
+                return compound.smiles
             except:
                 return 0
         smiles_ip=get_smiles(drug_name)
@@ -675,3 +675,4 @@ if tab=="🧪 Drug Synergy":
         
 
     
+
