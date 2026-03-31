@@ -1,8 +1,7 @@
-python
 pandas
 numpy
 pubchempy
-pytorch
+torch
 rdkit
 cirpy
 streamlit
