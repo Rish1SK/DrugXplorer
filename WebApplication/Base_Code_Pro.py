@@ -19,8 +19,8 @@ import os
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
-os.environ["MISTRAL_API_KEY"] = "Q9Ma0i7PpobPeTURFZK9kWDMT5pBBaHC"
-os.environ["SERPER_API_KEY"] = "Q9Ma0i7PpobPeTURFZK9kWDMT5pBBaHC"
+os.environ["MISTRAL_API_KEY"] = ""
+os.environ["SERPER_API_KEY"] = ""
 
 llm = LLM(
     model="mistral-small-latest",
